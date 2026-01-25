@@ -1,0 +1,28 @@
+:root {
+  --primary: #2563eb;
+  --danger: #dc2626;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  background: var(--primary);
+  color: white;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.btn-danger {
+  background: var(--danger);
+}
+
+.btn:focus-visible {
+  outline: 3px solid black;
+}
